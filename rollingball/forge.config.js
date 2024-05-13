@@ -20,20 +20,11 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-deb',
-      config: {
-        options: {
-          maintainer: 'Mastercoder1323',
-          homepage: 'https://example.com'
-        }
-      }
+      config: {}
     },
     {
       name: '@electron-forge/maker-rpm',
-      config: {
-        options: {
-          homepage: 'http://example.com'
-        }
-      }
+      config: {}
     },
   ],
   plugins: [
