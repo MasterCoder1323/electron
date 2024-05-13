@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A game compiles with electron abd made with p5play",
   "main": "main.js",
+  "repo": "@Mastercoder1323/electron",
   "scripts": {
     "test": "electron .",
     "start": "electron-forge start",
@@ -22,7 +23,8 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^30.0.3"
+    "electron": "^30.0.3",
+    "update-electron-app": "^3.0.0"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
