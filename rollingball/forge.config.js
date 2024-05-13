@@ -35,6 +35,17 @@ module.exports = {
         }
       }
     },
+    {
+      name: '@electron-forge/maker-snap',
+      config: {
+        features: {
+          audio: true,
+          mpris: 'com.example.mpris',
+          webgl: true
+        },
+        summary: 'Pretty Awesome'
+      }
+    },
   ],
   plugins: [
     {
